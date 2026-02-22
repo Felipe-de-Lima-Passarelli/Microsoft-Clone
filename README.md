@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Microsoft Homepage Clone — Next.js + Tailwind
 
-## Getting Started
+Este projeto é um clone da página inicial da Microsoft, desenvolvido com foco em:
 
-First, run the development server:
+- Componentização
+- Organização de layout
+- Controle de estado
+- Responsividade
+- Estrutura escalável
+
+O objetivo foi simular uma aplicação real com múltiplos componentes e interações.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Tabler Icons
+
+---
+
+## 🧠 Conceito do Projeto
+
+O projeto simula a página inicial da Microsoft com:
+
+- Menu dropdown
+- Banner rotativo
+- Cards de produtos
+- Seções institucionais
+- Banner promocional
+- Rodapé completo
+
+Toda a aplicação foi dividida em componentes reutilizáveis.
+
+---
+
+## 🧩 Estrutura de Componentes
+
+components/
+│
+├── Header
+│ └── MenuHeader
+│
+├── Main
+│ ├── BannerImageHeader
+│ ├── BannerImageMain
+│ ├── BannerImageFooter
+│ ├── CardMainIcon
+│ └── CardMainImage
+│
+└── Footer
+
+Cada componente possui responsabilidade específica.
+
+---
+
+## 🎯 Funcionalidades
+
+- Menu dropdown interativo
+- Banner com autoplay
+- Banner com pause/play
+- Troca manual de banners
+- Indicadores de slide
+- Grid responsivo
+- Cards reutilizáveis
+- Scroll suave
+- Layout responsivo
+
+---
+
+## 🔄 Controle de Estado
+
+O projeto utiliza useState para controlar:
+
+- Menu aberto/fechado
+- Banner ativo
+- Autoplay
+- Banner final
+
+E useEffect para:
+
+- Intervalos automáticos
+- Limpeza de memória
+- Controle de autoplay
+
+---
+
+## 💡 Principais aprendizados
+
+- Componentização em larga escala
+- Organização de layout complexo
+- Controle de estado em múltiplos componentes
+- Autoplay com useEffect
+- Estrutura escalável
+- Responsividade com Tailwind
+- Separação de responsabilidades
+
+---
+
+## 📌 Próximos passos
+
+- Melhorar acessibilidade
+- Melhorar responsividade mobile
+- Adicionar animações
+- Melhorar semântica HTML
+- Transformar banners em dados dinâmicos
+
+---
+
+## ▶️ Como rodar o projeto
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+👨‍💻 Autor
 
-To learn more about Next.js, take a look at the following resources:
+Felipe de Lima Passarelli  
+Desenvolvedor Front-End focado em evolução contínuo e boas práticas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+GitHub:  
+https://github.com/Felipe-de-Lima-Passarelli
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+📄 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT.
