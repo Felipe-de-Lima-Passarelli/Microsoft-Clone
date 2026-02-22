@@ -30,7 +30,7 @@ const Header = () => {
           <ul className="flex flex-row gap-1 md:gap-6 items-center">
             <li>
               <Image
-                src="/img/logo.png"
+                src="/img/Logo.png"
                 alt="Logo Microsoft"
                 width={100}
                 height={100}
