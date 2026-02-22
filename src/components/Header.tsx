@@ -6,7 +6,7 @@ import { useState } from "react";
 
 //ClassName li
 const liTailwind: string =
-  "inline-block border-b-2 border-transparent hover:border-black";
+  "inline-block border-b-2 border-transparent hover:border-black cursor-pointer";
 
 //Icons
 import {
